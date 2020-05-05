@@ -18,3 +18,7 @@ app.post('/', (req, res) => {
 })
 
 app.listen(port, () => console.log(`Listening on port ${port}!`))
+
+process.on('SIGINT', () => {
+  process.exit()
+})

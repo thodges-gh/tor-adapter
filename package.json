@@ -8,7 +8,7 @@
     "test": "./node_modules/.bin/_mocha --timeout 0"
   },
   "dependencies": {
-    "external-adapter": "^0.1.14",
+    "external-adapter": "^0.2.1",
     "tor-request": "^3.1.0"
   },
   "devDependencies": {
